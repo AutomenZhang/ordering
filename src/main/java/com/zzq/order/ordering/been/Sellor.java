@@ -11,7 +11,7 @@ public class Sellor {
     private String sellName;
     private String address;
     private String telephone;
-    private Date creatTime;
+    private String creatTime;
     public String getSellorId() {
         return sellorId;
     }
@@ -44,18 +44,18 @@ public class Sellor {
         this.telephone = telephone;
     }
 
-    public Date getCreatTime() {
+    public String getCreatTime() {
         return creatTime;
     }
 
-    public void setCreatTime(Date creatTime) {
+    public void setCreatTime(String creatTime) {
         this.creatTime = creatTime;
     }
 
     public Sellor() {
     }
 
-    public Sellor(String sellorId, String sellName, String address, String telephone, Date creatTime) {
+    public Sellor(String sellorId, String sellName, String address, String telephone, String creatTime) {
         this.sellorId = sellorId;
         this.sellName = sellName;
         this.address = address;
